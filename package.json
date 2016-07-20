@@ -1,0 +1,25 @@
+{
+  "name": "modern-project",
+  "version": "1.0.0",
+  "description": "Mordern project use NPM,Bable,Webpack and ESlint",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flyyang/modern-project.git"
+  },
+  "author": "flyyang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/flyyang/modern-project/issues"
+  },
+  "homepage": "https://github.com/flyyang/modern-project#readme",
+  "devDependencies": {
+    "babel-cli": "^6.10.1",
+    "babel-core": "^6.10.4",
+    "babel-loader": "^6.2.4",
+    "webpack": "^1.13.1"
+  }
+}
