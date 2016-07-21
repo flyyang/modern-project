@@ -23,3 +23,19 @@ This help you to add a `package.json` to your poroject.
 ```
 npm install webpack --save-dev
 ```
+
+## install bable loader
+
+```
+npm install babel-core babel-loader --save-dev
+
+// install preset(collecction of transforms)
+npm install babel-preset-es2015 --save-dev
+
+// polyfill
+
+npm install babel-runtime --save
+npm install babel-plugin-transform-runtime --save-dev
+```
+
+
