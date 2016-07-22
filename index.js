@@ -1,1 +1,3 @@
-const a = 1;
+const hello = require('./src/hello.js')
+
+hello.hello()

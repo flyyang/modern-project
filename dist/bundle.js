@@ -8118,11 +8118,29 @@
 
 /***/ },
 /* 298 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	var hello = __webpack_require__(299);
+
+	hello.hello();
+
+/***/ },
+/* 299 */
 /***/ function(module, exports) {
 
-	"use strict";
+	'use strict';
 
-	var a = 1;
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	exports.hello = hello;
+	var msg = 'hello world';
+
+	function hello() {
+	  console.log(msg);
+	}
 
 /***/ }
 /******/ ]);
